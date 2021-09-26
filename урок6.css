@@ -1,0 +1,571 @@
+.header {
+    width: 1920px;
+    height: 80px;
+
+}
+
+.colortext {
+    color: #1939DE;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    color: #3D4B66;
+}
+
+.main_wrapper {
+    width: 1920px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 1216px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.UDO {
+    color: blue;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.menu_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.otstup_header {
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D4B66;
+}
+
+.tel {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #3D4B66;
+}
+
+.title {
+    width: 1920px;
+    height: 620px;
+    background: url(background.svg);
+    display: flex;
+    justify-content: center;
+}
+
+.title_one {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 64px;
+    color: #3D4B66;
+}
+
+.title_two {
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D4B66;
+}
+
+.zayavka {
+    width: 142px;
+    height: 44px;
+    background: #1939DE;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFF4F4;
+    margin-top: 50px;
+}
+
+.udo_title {
+    width: 1216px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.max_title{
+    width: 1216px;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.podgotovka {
+    width: 1216px;
+    height: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.podgotovka_udo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #3D4B66;
+}
+
+.podgotovka1 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.podgotovka_udo1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spisok {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #3D4B66;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-left: 20px;
+}
+
+.snoska {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D4B66;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.podgotovka2_zagolovok {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+color: #1939DE;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.podgotovka2_opisanie {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #3D4B66;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+align-content: center;
+
+}
+
+.podgotovka2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 460px;
+    width: 360px;
+    margin-top: 80px;
+}
+
+.kak_background {
+    width: 1920px;
+    height: 620px; 
+    background: #EEF2F7; 
+    margin-top: 200px; 
+    display: flex;
+    justify-content: center;
+}
+
+.kak {
+    width: 1216px;
+    height: 500px;
+    background: #EEF2F7;
+}
+
+.kak_header_h {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 60px;
+color: #3D4B66;
+}
+
+.kak_header_p {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+align-items: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #3D4B66;
+}
+
+.kak_header_opisanie1 {
+    width: 500px;
+    height: 400px;
+    font-family: Roboto;
+}
+
+.kak_header_opisanie1_stroka {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D4B66;
+}
+
+.opisanie101 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.kak_header_opisanie1_border {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #3D4B66;
+width: 420px;
+background-color: white;
+}
+
+.kak_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kak_header_opisanie2 {
+    width: 460px;
+
+}
+.nashi {
+    width: 1216px;
+    height: 500px;
+}
+
+.nashi_header {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 60px;
+color: #3D4B66;
+margin-top: 50px;
+}
+
+.nashi_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ceni {
+    width: 1920px;
+    height: 620px;
+    background: url(ceni7.svg);
+    display: flex;
+    justify-content: center;
+}
+
+.ceni_granica {
+    width: 1216px;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ceni_left_ceni {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 60px;
+color: #3D4B66;
+display: flex;
+justify-content: start;
+margin-top: 20%;
+}
+
+.ceni-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.zapolnenie {
+    width: 1920px;
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    flex-direction: column;
+}
+
+.zapolnenie_forma {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #3D4B66;
+    
+}
+
+.zapolnenie_granica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+    border: 1px solid #DDDFE0;
+    box-sizing: border-box;
+    margin-left: 20%;
+}
+
+
+
+.zapolnenie_header_text {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+justify-content: start;
+align-items: start;
+margin-left: 20%;
+color: #3D4B66;
+}
+
+.zapolnenie_header {
+    height: max-content;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.form_input {
+    width: 592px;
+    height: 64px;
+    font-family: 'Roboto', sans-serif;
+    color: #3d4b3d;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #EEF2F7;
+    border-radius: 4px;
+    border: 0;
+}
+
+.form2 {
+    display: flex;
+    
+    justify-content: space-around;
+    margin-right: 3px;
+}
+
+.form2_1input {
+    width: 292px;
+    height: 64px;
+    font-family: 'Roboto', sans-serif;
+    color: #3d4b3d;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #EEF2F7;
+    border-radius: 4px;
+    border: 0; 
+    margin-top: 30px; 
+}
+
+.Form2_2input {
+    width: 292px;
+    height: 64px;
+    font-family: 'Roboto', sans-serif;
+    color: #3d4b3d;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #EEF2F7;
+    border-radius: 4px;
+    border: 0; 
+    margin-top: 30px;   
+}
+
+.dannye {
+    width: 1920px;
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    flex-direction: column;
+}
+
+.dannye_granica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 60%;
+    height: max-content;
+    border: 1px solid #DDDFE0;
+    box-sizing: border-box;
+    margin-left: 20%;
+    
+}
+
+.form_2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form_input2 {
+    width: 594px;
+    height: 64px;
+    font-family: 'Roboto', sans-serif;
+    color: #3d4b3d;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #EEF2F7;
+    border-radius: 4px;
+    border: 0;
+    margin-top: 30px;
+}
+
+.form_header_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D4B66;
+    margin-top: 30px;
+}
+
+.butt {
+    display: flex;
+    overflow: hidden;
+    z-index: -1;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+}
+
+.fake_butt {
+    display: flex;
+    width: 142px;
+    height: 44px;
+    background-color: white;
+    color: #1939DE;
+    border: 1px solid #1939DE;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -180px;
+}
+
+.fake_butt:hover {
+    cursor: pointer;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+}
+
+.hidden_chekbox {
+    display: inline-flex;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    margin-left: -7px;
+}
+
+.fake_chekbox::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background: url(chekbox.svg);
+    opacity: 0;
+}
+
+.hidden_chekbox:checked + .fake_chekbox::before {
+    opacity: 1;
+    width: 30px;
+    height: 30px;
+}
+
+.span {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3D4B66;
+}
+
+.text_chekbox {
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+.down {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.down_content_1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -190px;
+    }
+
+.down_content_2 {
+    margin-top: 100px;
+    margin-left: -190px;
+}
